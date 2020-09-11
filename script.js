@@ -3,7 +3,7 @@ let activate2 = document.getElementById("formatted"); //binds through DOM and JS
 let activate3 = document.getElementById("wanted"); //binds through DOMbutton and JS
 let result = document.getElementById("result");
 activate1.addEventListener("click", getWeather1);
-// activate2.addEventListener("click", getWeather2);
+activate2.addEventListener("click", getWeather2);
 // activate3.addEventListener("click", getWeather3);
 
 // weather API http://weerlive.nl/delen.php
